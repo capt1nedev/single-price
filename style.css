@@ -1,0 +1,134 @@
+* {
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-card {
+    height: 460px;
+    width: 630px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .3);
+}
+
+.upper-part {
+    height: 220px;
+    width: 630px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-content {
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.upper-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.bottom-part {
+    display: flex;
+}
+
+.left-bottom {
+    height: 250px;
+    width: 315px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.right-bottom {
+    height: 250px;
+    width: 315px;
+    border-bottom-right-radius: 10px;
+    background-color: #4abebd;
+}
+
+.community {
+    color: hsl(179, 62%, 43%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.moneybackmsg {
+    color: hsl(71, 73%, 54%);
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.left-bottom-content {
+    margin: 40px;
+    margin-top: 40px;
+    color: white;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.monthly {
+    margin-left: 10px;
+    color: hsl(204, 43%, 93%);
+}
+
+.sign-up {
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: hsl(71, 73%, 54%);
+    font-size: 16px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+.sub-description {
+    margin-top: -15px;
+    font-size: 14px;
+    font-weight: ;
+}
+
+.btn-position {
+    display: flex;
+    justify-content: center;
+}
+
+.community-desc {
+    color: hsl(218, 22%, 67%);
+}
+
+.msg-subs {
+    font-size: 20px;
+}
+
+.right-bottom-content{
+    margin: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+    padding-right: 50px;
+    color: white;
+}
+
+.why-desc{
+    color:hsl(204, 43%, 93%);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
